@@ -1,0 +1,187 @@
+
+.table-wraper-body {
+    background-color: #161616;
+    padding-bottom: 50px;
+}
+.search-table-bar {
+    padding: 27px 40px;
+}
+.search-txt-control{
+    height: 40px;
+    border-radius: 0px;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #161616;
+    max-width: 400px;
+    margin-left: auto;
+}
+.search-txt-control::placeholder{
+    font-weight: 500;
+    color: #161616;
+}
+.search-txt-control:focus {
+    color: #161616;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow:none;
+}
+
+
+
+.table-body-content thead tr .t-head {
+    border-color: #313131;
+}
+.table-body-content tr {
+    border-color: #313131;
+}
+.table-body-content tbody tr .t-disc {
+    border-color: #313131;
+    vertical-align: middle;
+}
+.table-body-content tbody {
+    border-top: 0px !important;
+}
+.table-body-content thead tr .t-head:first-child, .table-body-content tbody tr .t-disc:first-child {
+    border-left: 0px;
+}
+.table-body-content thead tr .t-head:last-child, .table-body-content tbody tr .t-disc:last-child{
+    border-right: 0px;
+}
+.t-head, .t-disc{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.eye-btn {
+    color: #247cae;
+    padding: 0;
+}
+
+
+/*-----------------------------*/
+.switch-boxbtn {
+    display: inline-block;
+    position: relative;
+}
+.react-switch-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .react-switch-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 35px;
+    height: 19px;
+    background: #fff;
+    border-radius: 100px;
+    position: relative;
+    transition: background-color .2s;
+  }
+  
+  .react-switch-label .react-switch-button {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 45px;
+    transition: 0.2s;
+    background: #161616;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+  }
+  .react-switch-checkbox:checked + .react-switch-label{
+    background: #31df31;
+  }
+  .react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+    left: calc(100% - 3px);
+    transform: translateX(-100%);
+    background-color: #fff;
+  }
+  /*-----------------modal------------------*/
+.modal--header {
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border-bottom: 0px;
+    padding: 25px 16px
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    border-bottom: 0px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.modal-header .btn-close {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    right: 14px;
+    margin: 0;
+    font-size: 14px;
+}
+.modal-header .btn-close:focus{
+    outline: none;
+    box-shadow: none;
+}
+.input-control-noti {
+    color: #000;
+    border-color: #000;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-control-noti::placeholder{
+    color: #000;
+}
+.text-control-noti {
+    color: #000;
+    border-color: #000;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.text-control-noti::placeholder{
+    color: #000;
+}
+.mange-txtarea{
+    height: 100px;
+}
+.btnSend-notifi {
+    width: 100%;
+    background-color: #161616;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.btnSend-notifi:hover{
+    color: #fff;
+}
+.card-header-main {
+    display: flex;
+    justify-content: space-between;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
