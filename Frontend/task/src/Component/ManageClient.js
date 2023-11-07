@@ -90,13 +90,6 @@ const [values, setValues] = useState({
                 name="project"
               />
             </div>
-            <div className="form-group mb-4">
-              <textarea
-                className="form-control text-control-noti mange-txtarea"
-                placeholder="Discription"
-                onChange={handleChange}
-              ></textarea>
-            </div>
             <div className="form-group">
               <button
                 type="button"
@@ -137,15 +130,20 @@ useEffect(()=>{
  //=========================================pagination===========================
 return (
     <>
-      <div className="main-manage--wrapp" style={{alignItems:"center",backgroundColor:"black",color:"white"}}>
+      <div className="main-manage--wrapp">
         <Container>
           <Row className="align-items-center">
             <Col lg={12}>
               <div className="main--tablecard">
                 <div className="card-header-main">
-                  <h3 className="heading-items-prod">Manage Users</h3>
-                  <div className="adduser--tab">
-                    <button
+                  <h3 className="heading-items-prod">Manage Client</h3>
+                 
+                 
+                </div>
+               
+                <div className="table-wraper-body">
+                <div className="adduser--tab">
+                    <button width="100px"height="100px"
                       variant="primary"
                       onClick={() => setModalShow(true)}
                       className="btn btn-add"
@@ -153,9 +151,6 @@ return (
                       Add User
                     </button>
                   </div>
-                </div>
-                <div className="table-wraper-body">
-                
                   <Table
                     bordered
                     className="table-body-content"

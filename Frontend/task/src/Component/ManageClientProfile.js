@@ -157,31 +157,31 @@ useEffect(()=>{
                               <h3 className="title--list"></h3>
                               <ul className="listmore--info-bis">
                                 <li className="info--art-txt">
-                                  <span className="fst--listmt">name</span>
+                                  <span className="fst--listmt">name :</span>
                                   <span className="scnd--listmt">
                                     {getDataID?.name}
                                   </span>
                                 </li>
                                 <li className="info--art-txt">
-                                  <span className="fst--listmt">lastName</span>
+                                  <span className="fst--listmt">lastName :</span>
                                   <span className="scnd--listmt">
                                     {getDataID?.lastName}
                                   </span>
                                 </li>
                                 <li className="info--art-txt">
-                                  <span className="fst--listmt">email</span>
+                                  <span className="fst--listmt">email   :</span>
                                   <span className="scnd--listmt">
                                     {getDataID?.email}
                                   </span>
                                 </li>
                                 <li className="info--art-txt">
-                                  <span className="fst--listmt">mobile</span>
+                                  <span className="fst--listmt">mobile   :</span>
                                   <span className="scnd--listmt">
                                     {getDataID?.mobile}
                                   </span>
                                 </li>
                                 <li className="info--art-txt">
-                                  <span className="fst--listmt">project</span>
+                                  <span className="fst--listmt">project   :</span>
                                   <span className="scnd--listmt">
                                     {getDataID?.project}
                                   </span>
